@@ -1,0 +1,120 @@
+#about {
+  display: flex;
+  width: 100%;
+  height: 50vw;
+  background: linear-gradient(76deg, #f4e5ce 53%,  #E5DBF6 50%)
+
+}
+#aboutme {
+  display: flex;
+  position:absolute;
+ 
+}
+#name {
+  color: black;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  transform: rotate(271deg);
+  font-size: 11.5rem;
+  line-height: 0.9;
+  text-shadow: 1px -7px 0px #7153ab;
+  margin-left: -3rem;
+  margin-top: 25vw;
+}
+#last {
+  line-height: 0.9;
+  color: black;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  transform: rotate(271deg);
+  font-size:5rem;
+  margin-left:-7vw;
+  margin-top: 10vw;
+}
+#circulo {
+  display: flex;
+  width:78vh;
+  margin-left: 15vh;
+  margin-top: 25vh;
+  height: 75vh;
+  border-radius: 60vh;
+  background-color: #C9B1F1;
+}
+.foto {
+  width: 85vh;
+  height:70vh;
+  margin-top: 5vh;
+  margin-left: -5vh;
+}
+#me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:55%;
+  height: 100%;
+
+}
+#Lenguajes {
+  font-family: "League Spartan", sans-serif;
+  font-size: 6rem;
+  margin-left: 20vw;
+  margin-bottom: 4vw;
+}
+#icons {
+  position: absolute;
+  display: grid;
+  margin-left: 57vw;
+  margin-top: 3vw;
+  grid-template-columns: 15vh 15vh 15vh 15vh;
+ 
+ 
+}
+#titulo1 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 6rem;
+  margin-left: 10vw;
+  margin-top: 8vh;
+  margin-bottom: 0;
+}
+#descrip {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  padding-right: 2vh;
+  margin-left: 12vw;
+  margin-top: 2vh;
+}
+
+.html {
+  width: 10vh;
+  height: 10vh;
+  padding: 0.7rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px #c9b1f1;
+}
+
+.css {
+  width: 10vh;
+  height: 10vh;
+  padding: 0.5rem 0;
+  box-shadow: 10px 10px #c9b1f1;
+  background-color: white;
+  border-radius: 20px;
+}
+.js {
+  width: 10vh;
+  height: 10vh;
+  box-shadow: 10px 10px #c9b1f1;
+  padding: 0.5rem 0;
+  background-color: white;
+  border-radius: 20px;
+}
+.react {
+  width: 10vh;
+  height: 10vh;
+  padding: 0.5rem 0;
+  box-shadow: 10px 10px #c9b1f1;
+  background-color: white;
+  border-radius: 20px;
+}

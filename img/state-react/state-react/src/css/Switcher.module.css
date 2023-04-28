@@ -1,0 +1,36 @@
+.boton {
+  display: inline-flex;
+  margin: 0;
+  width: 4rem;
+  height: 2rem;
+  background-color: rgb(205, 185, 4);
+  box-shadow: 0 0 0.25rem 0 rgb(120, 120, 120);
+  cursor: pointer;
+  border-radius: 2rem;
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+
+.night {
+  background-color: rgb(19, 0, 128);
+  transition: all 300ms ease-in-out;
+}
+.boton svg {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  left: 0;
+  top: 0;
+  transition: all 300ms ease-in-out;
+}
+.night svg {
+  left: 2rem;
+  transition: all 300ms ease-in-out;
+}

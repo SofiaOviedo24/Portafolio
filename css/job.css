@@ -1,0 +1,88 @@
+#job {
+  display: flex;
+  width: 99%;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+#star {
+  width: 99%;
+  height: 80vh;
+  display: flex;
+  margin-top: 6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#tittle {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  background-color: snow;
+  box-shadow: 10px 10px #c9b1f1;
+  width: 65vh;
+  height: 10vh;
+  border-radius: 3vh 1vh 3vh 1vh;
+}
+#sens {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2rem;
+  width: 75vh;
+  height: 6vh;
+  margin-top: 2vh;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fff0b3;
+  clip-path: polygon(0 0, 100% 0, 96% 50%, 100% 100%, 0 100%, 3% 50%);
+}
+.work {
+  width: 80%;
+  height: 50vh;
+  align-content: center;
+  padding-left: 26vw;
+  margin-bottom: 5vw;
+
+}
+
+.job1 {
+  position: absolute;
+  width: 40vh;
+  height: 50vh;
+  background-color: white;
+  padding: 1rem;
+  margin-left: 10rem;
+
+}
+.caja2{
+  position: relative;
+  width: 37vh;
+  height:56vh;
+  margin-left:18.55vh;
+  margin-top: -3vh;
+  cursor: pointer;
+  clip-path: polygon(78% 86%, 100% 71%, 100% 100%, 56% 100%);
+}
+.caja2:hover{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.job2 {
+  position: absolute;
+  width: 43vh;
+  height: 50vh;
+  background-color: white;
+  padding: 1rem;
+}
+.caja1{
+  position:relative;
+  width: 39.50vh;
+  height: 50vh;
+  margin-left: 1.75vh;
+  margin-bottom: 3vh;
+  cursor: pointer;
+  clip-path: polygon(82% 86%, 100% 71%, 100% 100%, 64% 100%);
+}
+
+.caja1:hover:hover{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}

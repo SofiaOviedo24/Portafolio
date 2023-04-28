@@ -1,0 +1,84 @@
+#contac{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background-color: snow;
+    font-family: "League Spartan", sans-serif;
+}
+#sticker{
+    display: flex;
+    width: 28vh;
+    height: 28vh;
+    margin-left: 10rem;
+    margin-top: 1.2rem;
+}
+#contme{
+    font-size: 2rem;
+    margin-left: 2vh;
+    margin-top: 4rem;
+}
+#senscontac {
+    width: 36vh;
+
+}
+#tel{
+    margin-right: 9rem;
+    font-size: 2.2vh;
+    margin-top: 3rem;
+}
+#email{
+    font-size: 2.2vh;
+    margin-top: 1.5rem;
+}
+#redes{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 5vh;
+    height: 5vh;
+    margin-top: 14vh;
+    margin-left: 7rem;
+}
+#redsocial{
+    display: flex;
+    margin-top: 8rem;
+    margin-left: -20rem;
+}
+
+.github{
+    width: 7vh;
+    height: 7vh;
+    margin-top: -.5vh;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.github:hover{
+    filter: grayscale(0);
+}
+.linked{
+    width: 8vh;
+    height: 8vh;
+    margin-top: -1.5rem;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.linked:hover{
+    filter: grayscale(0);
+}
+.instagram{
+    width: 4vh;
+    height: 5vh;
+    margin-top: .2rem;
+    margin-left: .5rem;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.instagram:hover{
+    filter: grayscale(0);
+}
+#sendred{
+    color: rgb(179, 176, 176);
+    font-size: 3vh;
+    margin-left: 12rem;
+    margin-top: 5rem;
+}

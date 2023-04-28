@@ -1,0 +1,23 @@
+#startbar{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-top: 2rem solid mediumpurple;
+    gap: 1rem;
+    z-index: 1;
+    position: fixed;
+}
+#startbar a {
+    color: #040305;
+    flex: 1;
+    padding: 1rem 0;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    border-radius: 2rem;
+}
+
+#startbar a:hover{
+background-color: #C9B1F1;
+color: black;}

@@ -1,0 +1,50 @@
+#hero {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  padding-top: 6vw;
+}
+#data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 88vh;
+  background-color: #c9b1f1;
+  clip-path: polygon(0 0, 65% 0, 90% 100%, 36% 163%);
+}
+#profesion {
+  margin-top: 5vh;
+  margin-right: 18rem;
+  color: #f8cf90;
+  font-size: 12rem;
+  font-family: "Bebas Neue", cursive;
+}
+#profesion1 {
+  line-height: 0.4;
+  color: #f4e5ce;
+  font-size: 10rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  color: black;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  padding-left: 5%;
+  text-align: center;
+}
+#intro {
+  display: flex;
+    width: 60%;
+    height: 80vh;
+}
+.retrato{
+  margin-top: 7rem;
+
+  object-fit:contain;
+}
